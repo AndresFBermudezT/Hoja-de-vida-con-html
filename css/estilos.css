@@ -1,0 +1,201 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;;
+}
+#hdv{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+#general{
+	margin: auto;
+	margin-top: 2%;
+	width: 80%;
+}
+
+header div{
+	float: left;
+	margin-left: 2%;
+	margin-right: 10%;
+	
+	text-align: center;
+	margin-top: 1%;
+
+}
+header{
+	border-radius: 20px;
+	box-shadow: 6px 6px;
+	border: 1px solid black;
+	overflow: hidden;
+	background: white;
+}
+
+#imagen{
+	width: 50%;
+}
+
+#encabezado{
+	margin-top: 4%;
+	font-size: 15px;
+}
+#entidad{
+	margin-top: 3%;
+}
+
+#datos{
+	margin-top: 2%;
+	
+}
+section{
+	box-shadow: 6px 6px;
+	border: 1px solid black;
+	background: rgba(242,250,252,255)
+}
+section div{
+	margin-left: 0%;
+	margin-right: 0%;
+	text-align: center;
+}
+#primero{
+	overflow: hidden;
+}
+#primero div{
+	float: left;
+	width: 33%;
+	border-left: 1px  black;
+}
+
+#segundo{
+	overflow: hidden;
+	border-top: 1px solid black ;
+}
+#segundo div{
+	float: left;
+	
+}
+#documento_id{
+	width: 36%;
+	border-left: 1px  black;
+}
+#sexo{
+	width: 18%;
+	border-left: 1px  black;
+}
+#nacionalidad{
+	width: 44%;
+
+}
+#nacionalidad_der{
+	float: left;
+	width: 50%;
+	border-left: 1px solid black;
+}
+#tercero{
+	overflow: hidden;
+	border-top: 1px solid black ;
+}
+#libreta_militar{
+	text-align: left;
+	border-top: 1px solid black;
+}
+#libreta_militar1{
+	float: left;
+	width: 32%;
+	word-spacing: 5pt;
+}
+#libreta_militar2{
+	word-spacing: 5pt;
+}
+#fecha_direccion{
+	overflow: hidden;
+	border-top: 1px solid black;
+	
+}
+#fecha{
+	float: left;
+	width: 40%;
+	border-right: 1px solid black;
+	text-align: left;
+}
+
+.fech{
+	width: 10%;
+}
+#fecha_der{
+	float: left;
+	width: 10%;
+	text-align: left;
+}
+#direccion{
+	text-align: left;
+	border-left: 1px  black;
+}
+.correspondencia_p{
+	width: 27%;
+	margin-top: 1px;
+	border: none;
+	border-bottom: 1px solid black;
+	margin-bottom: 2px;
+	background:rgba(242,250,252,255)
+}
+.correspondencia{
+	margin-top: 1px;
+	border: none;
+	border-bottom: 1px solid black;
+	margin-bottom: 2px;
+	background:rgba(242,250,252,255)
+}
+.aux{
+	margin-top: 1px;
+	border: none;
+	border-bottom: 1px solid black;
+	margin-bottom: 2px;
+	background:rgba(242,250,252,255)
+}
+#dperso div{
+	float: left;
+	overflow: hidden;
+	margin-top: 30px;
+
+}
+#num1{
+	color: white;
+	border-radius: 80%;
+	background: black;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#dp{
+	font-weight: bold;
+	background: black;
+	color: white;
+	height: 30px;
+	width: 200px;
+	text-align: center;
+	border-radius: 55px;
+	border: 3px solid black;
+	height: 20px;
+	font-size: 18px;
+}
+.controles1{
+	border: none;
+
+	background:rgba(242,250,252,255)
+}
+.controles{
+	border: none;
+	border-bottom: 1px solid black;
+	margin-bottom: 2px;
+	background:rgba(242,250,252,255)
+}
+article{
+	margin-top: 70px;
+}
+	

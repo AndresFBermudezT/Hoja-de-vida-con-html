@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hoja de vida</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<div id="general">
+		<header>
+			<div id="escudo">
+				<img id="imagen" src="img/escudo3.png" >
+				<p>Libertad y orden</p>
+			</div>
+
+			<div id="encabezado">
+				<h3>FORMATO ÚNICO</h3>
+				<p id="hdv">HOJA DE VIDA</p>
+				<h3>PERSONA NATURAL</h3>
+				<p id="leyes">(Leyes 190 de 1995, 489 y 443 de 1998)</p>
+			</div>
+
+			<div id="entidad">
+				<form>
+					<label for="entidadR"> ENTIDAD RECEPTORA</label><br>
+					<input type="text" name="entidadR"><br>
+				</form>
+			</div>
+		</header>
+
+		<div id="dperso">
+			<div id="num1">
+				<p>1</p>
+			</div>
+
+			<div id="dp">
+				<p id="datosperso">DATOS PERSONALES</p>
+			</div>
+		</div>	
+
+		<article>
+			<section id="datos">
+					<div id="primero">
+						<div id="primer_apellido">
+							<form>
+								<label for="primer_apellido">PRIMER APELLIDO</label><br>
+								<input class="controles1" type="text" name="primer_apellido"><br>
+							</form>
+						</div>
+						<div id="segundo_apellido">
+							<form>
+							<label for="segundo_apellido">SEGUNDO APELLIDO ( O DE CASADA )</label><br>
+							<input class="controles1" type="text" name="segundo_apellido"><br>
+							</form>
+						</div>
+							
+						<div id="nombres"><p>
+							<form>
+							<label for="nombres">NOMBRES</label><br>
+							<input class="controles1" type="text" name="nombres"><br>
+							</form>
+						</div>
+					</div>
+
+					<div id="segundo">
+						<div id="documento_id">
+							<p>DOCUMENTO DE IDENTIFICACIÓN</p>
+							<form>
+								<label for="C.C">C.C</label>
+								<input type="radio" id="C.C" name="documentos" value="C.C">
+								<label for="C.E">C.E</label>
+								<input type="radio" id="C.E" name="documentos" value="C.E">
+								<label for="PAS">PAS</label>
+								<input type="radio" id="PAS" name="documentos" value="PAS">
+								<label for="No">No.</label>
+								<input class="controles" type="text" name="No_documento">
+							</form>
+						</div>
+						<div id="sexo">
+							<p>SEXO</p>
+							<form>
+								<label for="F">F</label>
+								<input type="radio" id="F" name="sexo" value="F">
+								<label for="M">M</label>
+								<input type="radio" id="M" name="sexo" value="M">
+							</form>
+						</div>
+						<div id="nacionalidad">
+							<div id="nacionalidad_der">
+								<p>NACIONALIDAD</p>
+								<form>
+									<label for="COL">COL</label>
+									<input type="radio" id="COL" name="nacionalidad_der" value="COL">
+									<label for="EXTRANJERO">EXTRANJERO</label>
+									<input type="radio" id="EXTRANJERO" name="nacionalidad_der" value="EXTRANJERO">
+								</form>
+							</div>
+							<div id="nacionalidad_iz">
+								<form>
+									<label for="PAIS">PAIS</label><br>
+									<input class="controles" type="text" name="PAIS">
+								</form>	
+							</div>
+					</div>
+				</div>
+				<div id="libreta_militar">
+					<div id="libreta_militar1">
+						<p>LIBRETA MILITAR</p>
+						<form>
+						<label for="primera_clase">PRIMERA CLASE</label>
+						<input type="radio" id="PRIMERA_CLASE" name="libreta_militar" value="primera_clase">
+						<label for="segunda_clase">PRIMERA CLASE</label>
+						<input type="radio" id="PRIMERA_CLASE" name="libreta_militar" value="segunda_clase">
+						</form>
+					</div>
+					<div id="libreta_militar2">
+						<p></p><br>
+						<form>
+							<label for="NUMERO">NÚMERO</label>
+							<input class="controles" type="text" name="NUMERO">
+							<label for="D.M">D.M</label>
+							<input class="controles" type="text" name="D.M">
+						</form>
+					</div>
+						
+				</div>
+				<div id="fecha_direccion">
+					<div id="fecha">
+						<p>FECHA Y LUGAR DE NACIMIENTO</p>
+						<form>
+
+							<label for="fecha" > FECHA    DIA </label>
+							<input class="fech" type="fecha" name="fecha">
+							<label for="fecha"> MES </label>
+							<input class="fech" type="fecha" name="fecha">
+							<label for="fecha"> AÑO </label>
+							<input class="fech" type="fecha" name="fecha"><br>
+								
+						</form>
+						<div id="fecha_der">
+							<label for="pais">PAÍS</label>
+							<label for="depto">DEPTO</label>
+							<label for="municipio">MUNICIPIO</label>
+						</div>
+						<div id="fecha_iz">
+							<input class="aux" type="text" name="pais"><br>
+							<input class="aux" type="text" name="depto"><br>
+							<input class="aux" type="text" name="municipio"><br>
+						</div>
+							
+					</div>
+					<div id="direccion">
+						<p>DIRECCIÓN DE CORRESPONDENCIA</p>
+						<form>
+							<input class="correspondencia" type="text" name="direccion_corres"><br>
+							<label for="PAIS_C">PAÍS</label>
+							<input class="correspondencia" type="text" name="PAIS_C">
+							<label for="DEPTO_C">DEPTO</label>
+							<input class="correspondencia" type="text" name="DEPTO_C"><br>
+							<label for="MUNICIPIO_C">MUNICIPIO</label>
+							<input class="correspondencia" type="text" name="MUNICIPIO_C"><br>
+							<label for="TELEFONO">TELÉFONO</label>
+							<input class="correspondencia" type="text" name="TELEFONO">
+							<label for="EMAIL">EMAIL</label>
+							<input class="correspondencia" type="text" name="EMAIL"><br>
+						</form>
+							
+					</div>
+				</div>
+
+			</section>
+		</article>
+			
+	</div>
+
+
+
+
+</body>
+</html>
